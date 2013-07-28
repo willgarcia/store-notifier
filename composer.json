@@ -1,0 +1,22 @@
+{
+    "name": "wooshell/store-notifier",
+    "description": "PHP store notifier",
+    "authors": [
+        {
+            "name": "William Garcia",
+            "email": "garcia.rodriguez.william@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/finder": "2.4.*@dev",
+        "symfony/event-dispatcher": "2.4.*@dev"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": { "": "src" }
+    },
+    "bin": ["bin/gh-notifier"],
+    "config": {
+        "bin-dir": "bin"
+    }
+}
