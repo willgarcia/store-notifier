@@ -3,11 +3,11 @@ namespace wooshell\storeNotifier\EventDispatcher\Listeners\Drivers;
 
 use Symfony\Component\EventDispatcher\Event;
 use wooshell\storeNotifier\EventDispatcher\Events\LoggerEvent;
-use wooshell\storeNotifier\EventDispatcher\Listeners\ListenerInterface;
+use wooshell\storeNotifier\EventDispatcher\Listeners\NotifyListenerInterface;
 use wooshell\storeNotifier\Store\Store;
 use wooshell\storeNotifier\Store\StoreFile;
 
-class FileLoggerListener implements ListenerInterface
+class FileLoggerListener implements NotifyListenerInterface
 {
     /**
      * @var Store
