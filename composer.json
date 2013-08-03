@@ -1,6 +1,10 @@
 {
     "name": "wooshell/store-notifier",
     "description": "PHP store notifier",
+    "keywords": ["event","dispatcher", "notification", "store"],
+    "type": "library",
+    "license": "MIT",
+    "description": "PHP notifier based on Symfony EventDispatcher. Sends notification(s) when events are fired. Provides file storage to keep tracks of notifications.",
     "authors": [
         {
             "name": "William Garcia",
